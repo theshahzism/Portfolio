@@ -18,7 +18,9 @@ const ServiceCard = ({ index, title, icon }) => {
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[210px] flex justify-evenly items-center flex-col"
         >
           <img src={icon} alt="Title" className="w-16 h-16 object-contain" />
-          <h3 className="text-white text-[20px] text-center font-bold">{title}</h3>
+          <h3 className="text-white text-[20px] text-center font-bold">
+            {title}
+          </h3>
         </div>
       </motion.div>
     </Tilt>
@@ -37,10 +39,12 @@ const About = () => {
         className="mt-2 text-[17px] text-secondary max-w-5xl leading-[25px] "
       >
         I'm a skilled software developer with experience in JavaScript and
-        Python, and expertise in frameworks like React, Node.js, Django and Three.js.
-        I'm a quick learner and collaborate closely with clients to create
-        efficient, scalable, and user-friendly solutions that solve real-world
-        problems. Let's work together to bring your ideas to digital reality.
+        Python, and expertise in frameworks like React.js, Next.js, Node.js, and
+        Express.js. I believe in detail-driven success and hard work, and am
+        devoted to building high-performance and user-friendly digital
+        solutions. My ultimate goal is to create efficient, scalable, and
+        user-friendly solutions that solve real-world problems. Let's work
+        together to bring your ideas to digital reality.
       </motion.p>
       <div className="mt-10 flex flex-wrap gap-10 justify-center align-center">
         {services.map((service, index) => (
@@ -51,4 +55,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About,"about");
+export default SectionWrapper(About, "about");

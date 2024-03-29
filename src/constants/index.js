@@ -1,10 +1,8 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -14,7 +12,6 @@ import {
     mongodb,
     git,
     figma,
-    docker,
     python,
     django,
     meta,
@@ -25,6 +22,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    fiver,
+    ned,
   } from "../assets";
   
   export const navLinks = [
@@ -114,55 +113,26 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "MERN Stack Intern",
+      company_name: "Smart City Lab, NEDUET",
+      icon: ned,
+      iconBg: "#fff",
+      date: "February 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Assigned with the task of building fully functional react-native mobile applications.",
+        "Working on React & other frameworks to build more beautiful user interfaces.",
+        "Building projects to have hand-on on Node.js",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Front-End Developer",
+      company_name: "Fiverr",
+      icon: fiver,
+      iconBg: "#1dbf73",
+      date: "Jan 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Serving globally by building designs and implementing responsive front-end.",
+        "Offering services in HTML, CSS, Tailwind, Bootstrap and JavaSript/React.",
       ],
     },
   ];

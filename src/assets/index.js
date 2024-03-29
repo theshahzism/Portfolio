@@ -8,6 +8,7 @@ import close from "./close.svg";
 import github from './github.png';
 import linkedin from './linkedin.png';
 import fiver from './fiver.png';
+import ned from "./ned.png";
 
 
 import css from "./tech/css.png";
@@ -44,6 +45,7 @@ export {
   github,
   linkedin,
   fiver,
+  ned,
   menu,
   close,
   css,
