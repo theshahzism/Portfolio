@@ -37,7 +37,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import gericht from "./gerichtImage.png";
 import gpt3 from "./gpt3Image.png";
-import hoobank from "./hoobankImage.png"
+import hoobank from "./hoobankImage.png";
+import live from "./live.png";
 
 export {
   logo,
@@ -76,4 +77,5 @@ export {
   gericht,
   gpt3,
   hoobank,
+  live,
 };

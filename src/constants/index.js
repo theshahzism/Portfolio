@@ -27,6 +27,7 @@ import {
   ned,
   gpt3,
   hoobank,
+  live
 } from "../assets";
 
 export const navLinks = [
@@ -188,6 +189,7 @@ const projects = [
     ],
     image: gericht,
     source_code_link: "https://github.com/theshahzism/Gericht",
+    live_link: "https://theshahzism.github.io/Gericht/",
   },
   {
     name: "GPT3",
@@ -208,7 +210,8 @@ const projects = [
       },
     ],
     image: gpt3,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/theshahzism/GPT3",
+    live_link: "https://theshahzism.github.io/GPT3/",
   },
   {
     name: "Hoobank",
@@ -229,7 +232,8 @@ const projects = [
       },
     ],
     image: hoobank,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/theshahzism/Hoobank",
+    live_link: "https://theshahzism.github.io/Hoobank/",
   },
 ];
 
