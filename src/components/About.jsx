@@ -39,7 +39,7 @@ const About = () => {
         className="mt-2 text-[17px] text-secondary max-w-5xl leading-[25px] "
       >
         I'm a skilled software developer with experience in JavaScript and
-        Python, and expertise in frameworks like React.js, Next.js, Node.js, and
+        Python, and expertise in frameworks like React.js, Django, Node.js, and
         Express.js. I believe in detail-driven success and hard work, and am
         devoted to building high-performance and user-friendly digital
         solutions. My ultimate goal is to create efficient, scalable, and

@@ -35,6 +35,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import gericht from "./gerichtImage.png";
+import gpt3 from "./gpt3Image.png";
+import hoobank from "./hoobankImage.png"
 
 export {
   logo,
@@ -70,4 +73,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  gericht,
+  gpt3,
+  hoobank,
 };
