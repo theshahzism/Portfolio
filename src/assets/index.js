@@ -39,8 +39,10 @@ import gericht from "./gerichtImage.png";
 import gpt3 from "./gpt3Image.png";
 import hoobank from "./hoobankImage.png";
 import live from "./live.png";
+import carmen from "./carmen.jpg";
 
 export {
+  carmen,
   logo,
   backend,
   creator,
